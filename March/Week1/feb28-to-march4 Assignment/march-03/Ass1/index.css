@@ -1,0 +1,53 @@
+body{
+    background-image: url("./background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+h1{
+    color: red;
+}
+button{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    cursor: pointer;
+}
+button:hover{
+    background-color:chartreuse;
+}
+.container{
+    position: fixed;
+    width: 450px;
+    height: 239px;
+    background-color: bisque;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+.co_img{
+    position: relative;
+}
+.text{
+    position: absolute;
+    left: 190px;
+    top: 10px;
+}
+.ok{
+    position: absolute;
+    top: 175px;
+    left:0px;
+}
+.ok button{
+    padding: 18px 220px 20px 200px;
+    border-radius: 0px 0px 20px 20px;
+}
+.text ,p,h4{
+    color: red;
+}
+.alert{
+    display: none;
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: yellowgreen;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    background-color: beige;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.container{
+    background-color: bisque;
+    padding: 60px 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    color:black;
+    border: 2px solid blue;
+}
+button{
+    padding: 5px 15px;
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aquamarine;
+}
