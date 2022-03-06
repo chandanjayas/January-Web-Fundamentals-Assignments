@@ -1,0 +1,67 @@
+body{
+    background: url("./phot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    border-radius: 20px;
+    border: 2px solid green;
+    position:relative   
+}
+.img2{
+    border-radius: 20px;
+    border: 2px solid red;
+}
+.img3{
+    border-radius: 20px;
+    border:2px solid yellow;
+}
+.img4{
+    border-radius: 20px;
+    border: 2px solid rgb(21, 214, 31);
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: azure;
+    border: 1px solid blue;
+}
+.container{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 21, 31);
+    background-color: aquamarine;
+    cursor: pointer;
+    text-align: center;
+}
+.container2{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 21, 31);
+    background-color:bisque;
+    cursor: pointer;
+    text-align: center;
+}
+.container3{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 21, 31);
+    background-color:brown;
+    cursor: pointer;
+    text-align: center;
+}
+.container4{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 21, 31);
+    background-color:aqua;
+    cursor: pointer;
+    text-align: center;
+}
