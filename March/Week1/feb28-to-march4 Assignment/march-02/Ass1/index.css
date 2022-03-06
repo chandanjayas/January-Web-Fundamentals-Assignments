@@ -1,0 +1,21 @@
+body{
+    background-image: url("./backgraound.jpg");
+    background-position: no-repeat;
+    background-size:cover;
+}
+.container{
+    position: relative;
+}
+.error{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+.error span{
+    font-size: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+.error h1{
+    color: blue;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="div1">
+        <h3>Resistration......</h3>
+        Username / Email:
+        <input type="text" name="username" placeholder="Enter user name"><br /><br />
+        password:
+        <input type="password" name="psw" placeholder="please enter a valid password" id="pass1"><br /> <br>
+        confirm password:
+        <input type="password" name="psw" placeholder="pleae enter again password" id="pass2"><br> <br/>
+        <h5 id="show_error"></h5>
+        <button type="submit" onclick="loadpage();" class="button">GoTo Next page</button>
+        </div>
+    </div>    
+    <br>
+    <div class="div2">
+        <h1>Login / Resistration</h1>
+        <hr style="border: 2px solid red">
+        <form action="">
+            <div class="container">
+                <label for="uname"><b>Username* / Email</b></label>
+                <input type="text" placeholder="Enter Username / Email" name="uname" name="email" required />
+                <label for="psw"><b>Password*</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required />
+                <button type="submit" class="submitbtn">Login</button><br>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" class="remenberme">Remember me
+                </label>
+            </div>
+            <br />
+            <div class="container2">
+                <div class="cancelbtn">
+                    <button class="btn">Cancel</button>
+                </div>
+                <div class="forgotbtn">
+                    <span>Forgot</span> <span class="psw"><a href="#">Password</a></span>
+                </div>
+            </div>
+       </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
