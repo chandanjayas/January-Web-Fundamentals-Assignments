@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    background-color: yellow;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: grey;
+    color: black;
+}
+
+.main-big{
+background-color:blue;
+text-align: center;
+border: 1px solid black;
+
+}
+
+
+
+.searchandbutton{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.searchandbutton > input{
+    width: 300px;
+    height: 50px;
+}
+
+button{
+
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+

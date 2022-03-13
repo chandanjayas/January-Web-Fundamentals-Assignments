@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #deb887;
+}
+.container{
+    position: fixed;
+}
+.container h1{
+    font-size: 40px;
+    font-family:fantasy;
+    color: red;
+}
+.container input{
+    padding:7px;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #f0ffff;
+    border: 2px solid #a52a2a;
+    border-style: none;
+}
+.container button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1px 18px 6px;
+    background-color: #9ac329;
+    border: 2px solid  brown;
+}

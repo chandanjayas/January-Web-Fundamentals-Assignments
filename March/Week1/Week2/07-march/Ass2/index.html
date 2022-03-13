@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intagram UI</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="another_nave">
+            <nav>
+                <span>9:41 AM</span>
+                <span class="battery">
+                    <i class="fa fa-battery-3"></i>
+                </span>
+            </nav>
+        </div>
+        <div class=" second_div">
+            <nav class="sec_nav">
+                <span><i class="fa fa-camera"></i></span>
+                <span class="insta">𝕴𝖓𝖘𝖙𝖆𝖌𝖗𝖆𝖒</span>
+                <span class="send"><i class="fa fa-send-o"></i></span>
+            </nav>
+        </div>
+        <hr style="border-color: black;">
+        <div class="home" id="home_img">
+            <video src="https://player.vimeo.com/external/199944928.sd.mp4?s=9110fea688984a285fe5cf6a8ab86bf9db2d3b58&profile_id=164&oauth2_token_id=57447761" controls height="150px" width="290px"></video>
+            <video src="https://player.vimeo.com/external/431579131.sd.mp4?s=6ac189e42d9ee4c810082270e8461919921a6e18&profile_id=165&oauth2_token_id=57447761" controls height="150p" width="290px"></video>
+        </div>
+        <div class="sec_img" id="sec_imgage">
+            <img src="./2jpeg.jpeg" alt="" height="160px" width="290px" style="margin-left: 5px; border: 1px solid black;">
+            <img src="./flower.jpeg" height="180px" width="290px" style="margin-left: 5px; border: 1px solid red">
+        </div>
+        <div class="search" id="any_search">
+            please type here:<br>
+            <input type="text" size="25px">
+            <button type="submit">🔍</button>
+        </div>
+        <div class="person" id="add_person">
+            <img src="https://i.pinimg.com/474x/37/67/90/3767908213d163df973aa0c874f3d330.jpg" style="border-radius: 80%; height: 50px; width: 50px;" class="dp">
+            <p class="name">@CHANDAN KUMAR</p>
+            <br />
+            <br />
+            <br />
+            <img src="https://www.unigreet.com/wp-content/uploads/2020/12/smiley-dp.jpg" style="border-radius: 80%; height: 50px; width: 50px;" class="dp">
+            <p class="name2">@KARAN KUMAR</p>
+
+        </div>
+        <nav class="navigation">
+            <span>
+                <button onclick="home();">
+                    <i class="material-icons">home</i>
+                </button>
+            </span>
+            <span>
+                <button onclick="search();">
+                    <i class="material-icons">search</i>
+                </button>
+            </span>
+            <span>
+                <button onclick="image();">
+                    <i class="fa fa-image" style="font-size:28px"></i>
+                </button>
+            </span>
+            <span>
+                <button onclick="person();">
+                    <i class="material-icons">person</i>
+                </button>
+            </span>
+        </nav>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

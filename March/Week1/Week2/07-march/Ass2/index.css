@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-wrap: nowrap;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background-color:aqua;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+}
+button{
+    border: none;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
+    background-color: gold;
+    cursor: pointer;
+}
+.navigation{
+    background-color: gold;
+    padding: 12px 1px 12px;
+    border-radius: 0px 0px 14px 14px;
+    position: fixed;
+    top: 473px;
+}
+.navigation button{
+    margin-left: 34px;
+}
+button:hover{
+    color:red;
+}
+.another_nave{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.battery{
+    margin-left: 150px;
+}
+.sec_nav{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.insta{
+    margin-left: 45px;
+    color: red;
+    font-size: 20px;
+}
+.send{
+    margin-left: 35px;
+}
+.home{
+    display: none;
+}
+.sec_img{
+    display: none;
+}
+.search{
+    display: none;
+}
+.dp{
+    position: relative;
+    left: 3px;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    position: absolute;
+    top: 120px;
+    left: 550px;
+}
+.name2{
+    color: brown;
+    font-size:20px;
+    font-weight: bold;
+    position: absolute;
+    top:210px ;
+    left:550px ;
+}
+.person{
+    display: none;
+}

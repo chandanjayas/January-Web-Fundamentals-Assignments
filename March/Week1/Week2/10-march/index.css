@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.time{
+    font-size: 140px;
+    color: red;
+}
+.name{
+    font-size: 30px;
+}
+.digit{
+    border: 2px solid black;
+    padding-left: 65px;
+    background-color: #ffe4c4;
+}
+.button{
+    padding: 40px;
+}
+.container{
+    padding: 80px 80px 40px 80px ;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    background-color: #7ff007;
+}
+button{
+    font-size: 50px;
+    margin-left: 15px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    background-color:crimson;
+}
+button:first-child{
+    background-color: green;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
