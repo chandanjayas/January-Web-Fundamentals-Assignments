@@ -1,0 +1,192 @@
+body{
+    background-color:royalblue;
+    border: 3px solid gray;
+    margin: auto;
+}
+.heading{
+    background-color:greenyellow;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border: 2px solid gray;
+}
+.heading-2{
+    background-color:yellow;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+}
+.heading-3{
+    background-color: yellow;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 5px;
+    border: 2px solid gray;
+}
+.body{
+    height: 900px;
+    background-color:mediumorchid;
+    margin-bottom:25px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid gray;
+}
+.body1{
+    text-align: center;
+    padding-top: 5px;
+}
+.body-tag{
+    background-color:yellow;
+    margin-left: 530px;
+    margin-right: 530px;
+    border: 3px solid gray;
+}
+.div-wrapper{
+    width:90%;
+    margin: auto;
+    background-color: greenyellow;
+    padding-bottom:20px;
+    height: 720px;
+    padding-top: 10px;
+    border: 3px solid gray;
+
+}
+.wrapper{
+    background-color: yellow;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 3px solid gray;
+}
+.close-wrapper{
+    background-color: yellow;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 1px;
+    border: 3px solid gray;
+}
+.closebody1{
+    width: 50%;
+    float: left;
+}
+.closehtml1{
+    width: 50%;
+    float: right;
+}
+.closebody{
+    background-color: yellow;
+    margin-right: 20px;
+    margin-left: 100px;
+    border: 3px solid gray;
+}
+.closehtml{
+    background-color: yellow;
+    margin-left: 20px;
+    margin-right: 100px;
+    border: 3px solid gray;
+}
+.div-container{
+    background-color: whitesmoke;
+    height: 620px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top:2px;
+    border: 3px solid gray;
+}
+.container1{
+    background-color: yellow;
+    margin-left: 350px;
+    margin-right: 350px;
+    border: 3px solid gray;
+}
+.div-close-container{
+    padding-bottom: 6px;
+}
+.close-container{
+    background-color: yellow;
+    margin-left: 310px;
+    margin-right: 310px;
+    border: 3px solid gray;
+    margin-top: 12px;
+}
+.div-header{
+    background-color:darkgoldenrod;
+    height:60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top:3px;
+    border: 3px solid gray;
+}
+.header{
+    background-color: yellow;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size:25px;
+    border: 3px solid gray;
+}
+.div-navigation{
+    background-color:fuchsia;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 1px;
+    border: 3px solid gray;
+}
+.navigation{
+    background-color: yellow;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 3px solid gray;
+}
+.div-footer{
+    background-color:antiquewhite;
+    height: 60px;
+    padding-top: 1px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 3px solid gray;
+}
+.footer{
+    background-color: yellow;
+    margin-left:250px;
+    margin-right: 250px;
+    border: 3px solid gray;
+}
+.main{
+    background-color: skyblue;
+    height:240px;
+    margin-left:30px;
+    margin-right: 30px;
+    border: 3px solid gray;
+}
+.div-container2{
+    background-color: yellow;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 193px;
+    border: 3px solid gray;
+}
+.class-content{
+    width: 50%;
+    float: left;
+}
+.class-float{
+    width: 50%;
+    float: right;
+}
+.content{
+    background-color:lightgray ;
+    margin-left: 110px;
+    margin-right: 110px;
+    border: 3px solid gray;
+}
+.float{
+    background-color: lightgrey;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px solid gray;
+}

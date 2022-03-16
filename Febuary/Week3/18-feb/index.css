@@ -1,0 +1,26 @@
+h1{
+    color: red;
+    text-decoration: underline;
+}
+.heading{
+    color:red;
+}
+button{
+    border-radius: 10px;
+    background-color: blue;
+    color: black;
+    font-size: 20px;
+}
+button:hover{
+    background-color:red;
+}
+.item:nth-child(3n+1){
+    background-color:lightgray;
+}
+.item:nth-child(3n+2){
+    background-color:gray;
+}
+.item:nth-child(3n+3){
+    background-color:darkgray;
+}
+
